@@ -93,3 +93,7 @@ zen.spamhaus.org
 zombie.dnsbl.sorbs.net
 ```
 
+
+## More DNSBL servers if needed
+
+- [blacklist-check-unix-linux-utility by adionditsak](https://github.com/adionditsak/blacklist-check-unix-linux-utility)
