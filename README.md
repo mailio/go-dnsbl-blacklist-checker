@@ -4,6 +4,8 @@
 
 Check if an IP v4 is blacklisted. 
 
+![Screenshot of My Project](./images/dnsbl-console.png)
+
 ## Requirements
 
 - GoLang >= 1.20
