@@ -24,6 +24,22 @@ foo@bar:~$ make build
 foo@bar:~$ ./dnsbl-blacklist-checker 127.0.0.1
 ```
 
+Use as module in your own project:
+
+```
+import "github.com/mailio/go-dnsbl-blacklist-checker"
+```
+
+Simple use:
+```go
+// get config
+cfg := dnsbl.GetDefaultConfig()
+nameserver := cfg.RandomNameserver()
+
+// run DNSBL queries
+results, err := dnsbl.RunQuery(cfg, ip, nameserver)
+```
+
 ## Blacklists
 
 find them in `dnsbl/config.go`
