@@ -8,10 +8,10 @@ import (
 var nameservers = []string{"8.8.8.8:53", "8.8.4.4:53", "1.1.1.1:53", "208.67.222.222:53"}
 
 type DNSBLConfig struct {
-	Nameservers []string
-	Concurrency int
-	Dnsbl       string
-	Debug       bool
+	Nameservers []string // DNSBL nameservers
+	Concurrency int      // how many concurrent queries to run
+	Dnsbl       string   // DNSBL to query
+	Debug       bool     // debug mode
 }
 
 func GetDefaultConfig() DNSBLConfig {

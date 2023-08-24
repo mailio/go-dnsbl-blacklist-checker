@@ -10,16 +10,16 @@ Check if an IP v4 is blacklisted.
 
 ## Installation
 
-```
-git clone https://github.com/igorrendulic/go-dnsbl-blacklist-checker.git
-cd go-dnsbl-blacklist-checker
-make build
+```console
+foo@bar:~$ git clone https://github.com/igorrendulic/go-dnsbl-blacklist-checker.git
+foo@bar:~$ cd go-dnsbl-blacklist-checker
+foo@bar:~$ make build
 ```
 
 ## Usage
 
-```
-./dnsbl-blacklist-checker 127.0.0.1
+```console
+foo@bar:~$ ./dnsbl-blacklist-checker 127.0.0.1
 ```
 
 ## Blacklists
