@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mailio/mailio-dofindserver/models"
+	"github.com/mailio/go-dnsbl-blacklist-checker/models"
 	"github.com/miekg/dns"
 )
 

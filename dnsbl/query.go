@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/mailio/mailio-dofindserver/models"
+	"github.com/mailio/go-dnsbl-blacklist-checker/models"
 	"golang.org/x/sync/semaphore"
 )
 

@@ -1,4 +1,4 @@
-module github.com/mailio/mailio-dofindserver
+module github.com/mailio/go-dnsbl-blacklist-checker
 
 go 1.20
 
